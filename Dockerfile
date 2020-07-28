@@ -12,8 +12,9 @@ RUN pip3 install robotframework
 RUN pip3 install robotframework-seleniumlibrary
 RUN pip3 install robotframework-selenium2library
 RUN pip3 install jq
-RUN apt-get install -y firefox xvfb
-RUN apt-get install curl
+#RUN apt-get install -y firefox
+#RUN apt-get install -y xvfb
+RUN apt-get install -y curl
 #The following are needed for chrome & chrome driver installation
 RUN apt-get install -y xvfb
 RUN apt-get install -y zip
