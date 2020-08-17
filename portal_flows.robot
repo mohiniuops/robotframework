@@ -4,8 +4,7 @@ Library  Selenium2Library
 
 *** Variables ***
 ${LOGIN URL}      https://n.vodafone.ie/en.html#
-${username}     0872264590
-${password}     Aa123456!
+
 
 *** Test Cases ***
 Test Open vodafone portal
